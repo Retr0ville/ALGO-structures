@@ -5,8 +5,9 @@ const fizzBuzz =(num)=>{
     i % 3 === 0 && i % 5 !== 0 && res.push('Fizz')
     i % 5 === 0 && i % 3 !== 0 && res.push('Buzz')
     i % 5 !== 0 && i % 3 !== 0 && res.push(String(i))
+   
   }
-  console.log(res);
+  return  console.log(res);
 }
 
 fizzBuzz(100)
