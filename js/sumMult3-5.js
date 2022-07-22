@@ -1,6 +1,3 @@
-const sum =(a, b)=>{
-  return a + b
-}
 // sum of n items AP n/2(2a + (n-1)d)
 
 function sumMult35(a, b, max){const APSum=(diff, num)=>{
