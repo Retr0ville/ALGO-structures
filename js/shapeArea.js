@@ -34,5 +34,5 @@ function solution(n) {
   };
   return recurr(n);
 }
-var test = 11416
+var test = 1141
 console.log(test, solution(test));
